@@ -189,7 +189,7 @@ pre{
     left: 27%;
     font-size: 1.2em;
     width: 50%;
-    background: rgba(0, 0, 0, 0.116);
+    background: rgba(212, 59, 59, 0.116);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.041);
@@ -201,8 +201,19 @@ pre{
     width: 40%;
 }
 
+.cajaTexto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .texto4 li{
     list-style: none;
     margin: 1em;
     font-size: 1.2em;
+}
+
+#foto3{
+    width: 355px;
+    height: 255px;
 }
